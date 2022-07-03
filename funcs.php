@@ -15,7 +15,7 @@ function db_conn(){
 
       //localhost以外＊＊自分で書き直してください！！＊＊
       if($_SERVER["HTTP_HOST"] != 'localhost'){
-          $db_name = "yokoyuichi_db_hunting";  //データベース名
+          $db_name = "yokoyuichi_huntingapp";  //データベース名
           $db_id   = "yokoyuichi";  //アカウント名（さくらコントロールパネルに表示されています）
           $db_pw   = "bo-bass61";  //パスワード(さくらサーバー最初にDB作成する際に設定したパスワード)
           $db_host = "mysql618.db.sakura.ne.jp"; //例）mysql**db.ne.jp...
